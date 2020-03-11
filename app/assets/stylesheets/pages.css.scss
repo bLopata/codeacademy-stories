@@ -1,11 +1,21 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+div {
+  display: block;
+}
 .home .wallpaper {
   background: url(https://images.unsplash.com/photo-1476610182048-b716b8518aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1427&q=80) center center;
   background-size: cover;
   min-height: 600px;
   width: 100%;
+}
+.col-md-1 {
+max-width: 50%
+}
+.col-md-offset-1 {
+  float: left;
+  margin-left: 50%
 }
 a.btn {
   background-color: rgba(0, 0, 0, 0.9);
@@ -18,5 +28,16 @@ a.btn {
   margin: 40px 0;
   padding: 0 50px;
   transition: background-color 0.5s;
+  vertical-align: middle;
   width: 200px;
+}
+.footer {
+    background-color: rgb(8, 10, 11);
+    border-top-color: rgb(44, 43, 41);
+    border-top: solid 1px #F5F5F5;
+    padding: 40px 0 30px 0;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
 }
